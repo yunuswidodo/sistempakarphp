@@ -1,3 +1,10 @@
+<?php
+session_start();
+
+if ($_SESSION['status'] != "login") {
+    header("location:login.php?pesan=belum_login");
+}
+?>
 <?php include "_header.html" ?>
 <?php include "_sidebar.html" ?>
 
@@ -9,7 +16,7 @@
         <!-- ini konten -->
         <div class="col-md-12">
             <table class="table table-striped table-advance table-hove">
-                <h4><i class="fa fa-angle-right"></i> Advanced Table</h4>
+                <h4><i class="fa fa-angle-right"></i> ALL LAPTOP</h4>
                 <hr>
                 <div class="row">
                     <div class=" add-task-row">

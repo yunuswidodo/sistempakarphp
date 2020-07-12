@@ -442,7 +442,7 @@ ul.sidebar-menu li a.active i {
     margin-top: 60px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 60px;
     padding-top: 0px;
     width: 100%;
 }
@@ -1416,12 +1416,12 @@ PANELS CONFIGURATIONS
 
 /* BLOG PANEL */
 #blog-bg {
-    background: url(../img/blog-bg.jpg) no-repeat center top;
+    background: url(../img/instagram.jpg) no-repeat center top;
     margin-top: -15px;
     background-attachment: relative;
     background-position: center center;
     min-height: 150px;
-    height: 300px;
+    height: 500px;
     width: 100%;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -1456,9 +1456,9 @@ PANELS CONFIGURATIONS
     padding: 6px;
     color: white;
     font-weight: 700;
-    position: absolute;
+    /* position: absolute; */
     display: block;
-    width: 120px;
+    width: 100%;
 }
 
 .blog-text {

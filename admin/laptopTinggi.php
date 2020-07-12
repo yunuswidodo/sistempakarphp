@@ -1,3 +1,10 @@
+<?php
+session_start();
+
+if ($_SESSION['status'] != "login") {
+    header("location:login.php?pesan=belum_login");
+}
+?>
 <?php include "_header.html" ?>
 <?php include "_sidebar.html" ?>
 
@@ -10,7 +17,7 @@
         <div class="row">
             <div class="col-md-12">
                 <table class="table table-striped table-advance table-hove">
-                    <h4><i class="fa fa-angle-right"></i> Advanced Table</h4>
+                    <h4><i class="fa fa-angle-right"></i> Laptop Tinggi</h4>
                     <hr>
                     <thead>
                         <tr>
