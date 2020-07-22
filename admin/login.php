@@ -80,12 +80,8 @@
                                 <h4 class="modal-title">Forgot Password ?</h4>
                             </div>
                             <div class="modal-body">
-                                <p>Enter your e-mail address below to reset your password.</p>
-                                <input type="text" name="email" placeholder="Email" autocomplete="off" class="form-control placeholder-no-fix">
-                            </div>
-                            <div class="modal-footer">
-                                <button data-dismiss="modal" class="btn btn-default" type="button">Cancel</button>
-                                <button class="btn btn-theme" type="button">Submit</button>
+                                <p>hubungi admin saja</p>
+                                <input type="text" name="email" placeholder="082242842127" autocomplete="off" class="form-control placeholder-no-fix">
                             </div>
                         </div>
                     </div>

@@ -5,7 +5,7 @@
     <div class="card-img-overlay">
         <h5 class="card-title">Freedom</h5>
         <p class="card-text">program sistem pakar yang dibuat dengan senang hati untuk memenuhi syarat kelulusan </p>
-        <button class="btn btn-primary">tayo</button>
+        <button class="btn btn-primary">selamat datang</button>
     </div>
 </div>
 

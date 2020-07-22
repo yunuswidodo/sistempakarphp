@@ -1,6 +1,6 @@
 <?php include "_header.html" ?>
 
-<!-- start php -->
+<!--    start php -->
 <?php
 // include "koneksi.php"; || paten
 // $sql_query = mysqli_query($host, "SELECT * FROM bidang_pekerjaan");
